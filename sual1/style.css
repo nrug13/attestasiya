@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.all{
+    padding: 20px 5px;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: space-between;
+    background-image: url(https://img.freepik.com/premium-photo/colorful-dramatic-sky-with-cloud-sunset-sky-with-sun-background_33736-1538.jpg?w=2000);
+}
+.top{
+    height: 50%;
+    font-size: 36px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.elements{
+    display: flex;
+}
+.elements p{
+    font-size: 24px;
+    padding: 0 10px;
+}
+.bottom{
+    height: 50%;
+    display: flex;
+    justify-content: center;
+}
+.bottom p{
+    font-size: 48px;
+}
